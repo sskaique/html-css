@@ -1,0 +1,16 @@
+* {
+    font-size: 1.2em;
+}
+
+div {
+    display: inline-block;
+    height: 200px;
+    border: 5px solid black;
+    border-radius: 3px;
+    vertical-align: middle;
+    /*
+        O vertical-align serve para alinhar os elementos de linha ao lado
+        dela e não o conteúdo dentro delas. A caixa que vai alinhar os outros
+        elementos precisa ser inline ou inline-block.
+    */
+}

@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(34, 33, 36);
+    
+}
+
+.container {
+    display: block;
+    background-color: rgb(94, 0, 94);
+    max-width: 50%;
+    min-width: 25%;
+    max-height: 50%;
+    margin: 10% auto;
+    padding: 5%;
+    text-align: center;
+}
+
+.item {
+    display: inline-block;
+    background-color: blueviolet;
+    color: white;
+    width: 25%;
+    min-height: 10vw;
+    margin: 5px 5px;
+}
+

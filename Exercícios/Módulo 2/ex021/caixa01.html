@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        body {
+            background-color: #1e2222;
+        }
+
+        h1 { /* box-level */
+
+            /* display: inline;  /  transforma em inline-level */
+            background-color: aquamarine;
+            height: 300px;
+            width: 300px;
+
+            /*
+            border-width: 10px;
+            border-style: solid;
+            border-color: blueviolet;
+            */
+
+            border: 10px solid blue; /* SHORTHAND */
+
+            /*
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            */
+
+            padding: 10px; /* SHORTHAND: Caso todos os lados sejam iguais, apenas um valor é necessário. Caso "cima e baixo" tenham valores diferentes de "esquerda e direita", apenas dois valores são necessários. */
+            
+            /*
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px;
+            */
+
+            margin: 20px auto 40px auto; /* SHORTHAND: Você pode automatizar a margem simplesmente colocando 'auto' */
+
+            /*
+            outline-width: 10px;
+            outline-style: dashed;
+            outline-color: orangered;
+            */
+
+            outline: 5px dashed salmon;
+        }
+
+        a { /* inline-level */
+
+            /*
+            display: inline-block;  /  ainda é inline mas com algumas caractetísticas do block 
+            display: block;         /  transforma em block = bloco
+            */
+            color: rgb(101, 101, 148);
+            border-width: 3px;
+            border-style: solid;
+            border-color: rgb(43, 214, 226);
+        }
+
+        p {
+            color: rgb(212, 202, 202);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo funciona.</p>
+</body>
+</html>
