@@ -15,14 +15,15 @@
             background-attachment: fixed;*/
             
             /* Shorthand - background
-                color > image > position > repeat > [size] > attachment
+                color > image > position > repeat > / > size > attachment
 
-                Apesar de correto, o size não funciona na shorthand. 
-                Tendo que ser declarado separadamente
+                De acordo com o artigo de Mateusz Hadrys publicado na Medium
+                O size tem que vir depois do position, separados por uma barra (/)
+                Caso tente definir sem a barra, o background será tratado como inválido e ignorado
             */
 
-            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
-            background-size: cover;
+            background: black url('imagens/wallpaper002.jpg') center center / cover no-repeat fixed;
+            /*background-size: cover;*/
         }
         
         main {
