@@ -1,0 +1,28 @@
+    
+HIERARQUIA DE DIMENSÕES
+
+    CSS
+    HEIGHT e WIDTH configurados no iframe
+    HEIGHT e WIDTH padrão do iframe (300x150)
+
+Sites podem ser exibidos nos iframes.
+O fundo de um iframe é transparente.
+O "i" de iframe significa "inline".
+iframe poderia ser traduzido como "quadro em linha".
+Caso o navegador não seja compatível com a exibição do iframe, é possivel colocar um link dentro do iframe para leva-lo ao respectivo site.
+Tamanho padrão 300x150.
+
+O parâmetro "srcolling" serve para configurar a barra de rolagem do iframe, e ele aceita os seguintes valores: "auto", "yes" e "no".
+
+auto - É o valor padrão.
+yes - Força a exibição de uma barra de rolagem, mesmo que o site esteja totalmente exibido.
+no - Bloqueia a barra de rolagem, impedindo de rolar.
+
+O "frameborder" faz com seu iframe tenha borda ou não.
+        
+0 - Sem borda
+Qualquer outro valor - Adicona uma borda
+
+
+
+Há sites que são protegidos contra iframes que os impedem de ser exibidos por sites de terceiros.
