@@ -26,3 +26,5 @@ Qualquer outro valor - Adicona uma borda
 
 
 Há sites que são protegidos contra iframes que os impedem de ser exibidos por sites de terceiros.
+
+Você pode carregar um conteúdo local no seu iframe (uma página sua) para não se preocupar com questões de bloqueio/proteção que alguns sites têm.
