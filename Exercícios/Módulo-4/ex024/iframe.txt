@@ -28,3 +28,7 @@ Qualquer outro valor - Adicona uma borda
 Há sites que são protegidos contra iframes que os impedem de ser exibidos por sites de terceiros.
 
 Você pode carregar um conteúdo local no seu iframe (uma página sua) para não se preocupar com questões de bloqueio/proteção que alguns sites têm.
+
+Para abrir outras paginas dentro do iframe, é necessário nomea-lo com o parametro name="" e adicionar o determinado nome dentro de um target de um link. Isso permite navegar em outras páginas dentro do próprio iframe.
+
+O parametro srcdoc="" serve para gerar conteudo estaticamente sem precisar criar um arquivo separado. No entanto, essa NÃO é a forma recomendada. Quando for usar algum parametro das tags criadas dentro do srcdoc, lembre-se que para que esses parametro sejam reconhecidos é preciso usar aspas simples, pois eles estarão dentro de aspas duplas.
