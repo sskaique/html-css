@@ -1,0 +1,44 @@
+Um formulário é um local onde seus visitantes podem colocar dados. Não existem apenas formulários digitais.
+
+TAG <form></form> -- delimita o formulário
+
+<form action="cadastro.php"></form> -- envia os dados para outro arquivo se for disparado a ação, no nosso caso envia para o cadastro.php
+
+<form autocomplete="off"></form> -- retira as sugestões de dados, mas é recomendavel deixar no "on"
+
+<form method="get"></form> -- serve para dados não sensíveis que foram enviados (Ex.: nome, sobrenome, peso, ...). Só é possível enviar dados de até 3000 bytes.
+
+<form method="post"></form> -- oculta da URL os dados mais sensíveis que foram enviados (Ex.: senha, número do cartão de crédito, endereço, ...). No entanto, há outros meios de se obter esses dados. Também serve para envio de arquivos.
+
+Para inserir os dados basta usar a tag <input>. Há varios tipos de inputs.
+
+<input type="text" name="" id="">  --> cria uma caixa de texto, e toda caixa de texto precisa de nome e id.
+O nome é mais útil para o HTML e o PHP, para os campos de entrada de dados.
+Id serve mais para o javascript e o label.
+
+<input type="submit" value="">  --> submete/envia os dados. Value serve para dar nome ao botão. 
+Obs: sem o action="" os dados não irão para lugar nenhum.
+
+<input type="reset" value="">  --> Limpa os campos
+
+required --> Obriga o usuário a preencher os campos obrigatorios antes de enviar os dados.
+minlength="" --> Comprimento minimo de uma campo
+maxlength="" --> Comprimento maximo de uma campo
+size="" --> muda o tamanho do campo, cada valor é referente a quantidade de letras visiveis
+(Ex.: size="5" --> tamanho de 5 letras visiveis, apesar que pode aparecer mais se a fonte não for monoespaçada)
+placeholder="" --> é como se fosse uma dica do que o usuário deve colocar no campo
+autocomplete="" --> oferece sugestões de dados armazenados para o usuário. Existe diversos tipos. 
+(
+    Ex.: "username" - para nome de usuário
+    "current-password" - para senha recente
+    "new-password" - para nova senha
+)
+
+A tag <label></label>, também conhecida como etiqueta, relaciona uma palavra e uma caixa de texto.
+<p>
+    <label for="inome">Nome:</label> <!-- Etiqueta -->
+    <input type="text" name="nome" id="inome"> <!-- Campo que a etiqueta está relacinada -->
+</p>
+
+No for="" sempre será usado o id do input
+Obs.: É recomendavel usar a tag <div> em vez de <p>
