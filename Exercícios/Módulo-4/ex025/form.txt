@@ -34,6 +34,18 @@ autocomplete="" --> oferece sugestões de dados armazenados para o usuário. Exi
     "new-password" - para nova senha
 )
 
+<input type="number"> --> caixa do tipo number
+
+min="" --> valor mínimo numérico
+max="" --> valor máximo numérico
+step="" --> de quanto em quanto o valor pode saltar
+value="" preenche o input com um valor inicial (invalida o placeholder)
+
+<input type="month"> --> seleção de mês e ano, com menu interativo. Formato: yyyy-mm
+<input type="date"> --> para datas completas (dia/mês/ano), com calendário. Formato: yyyy-mm-dd
+<input type="time"> --> para hora e minuto (opcionalmente segundos). Formato: hh:mm
+
+
 A tag <label></label>, também conhecida como etiqueta, relaciona uma palavra e uma caixa de texto.
 <p>
     <label for="inome">Nome:</label> <!-- Etiqueta -->
