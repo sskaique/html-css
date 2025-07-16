@@ -21,6 +21,8 @@ Obs: sem o action="" os dados não irão para lugar nenhum.
 
 <input type="reset" value="">  --> Limpa os campos
 
+<input type="mail">  --> Campo para digitar o e-mail do usuário, mas não verifica se o e-mail existe.
+
 required --> Obriga o usuário a preencher os campos obrigatorios antes de enviar os dados.
 minlength="" --> Comprimento minimo de uma campo
 maxlength="" --> Comprimento maximo de uma campo
@@ -45,6 +47,17 @@ value="" preenche o input com um valor inicial (invalida o placeholder)
 <input type="date"> --> para datas completas (dia/mês/ano), com calendário. Formato: yyyy-mm-dd
 <input type="time"> --> para hora e minuto (opcionalmente segundos). Formato: hh:mm
 
+<input type="tel">  --> Campo para digitar o número de telefone.
+
+pattern="" --> usado para configurar uma expressão regular para definir qual será o formato aceito para o valor.
+
+<input type="checkbox">  --> Campo para selecionar uma ou mais opções disponiveis.
+
+checked --> propriedade que estabelece uma caixa previamente selecionada.
+
+<input type="radio">  --> Campo para selecionar apenas uma opção. Toda caixa do tipo radio deve conter o mesmo nome para as opções não sejam marcadas de ao mesmo tempo.
+
+checked --> só pode ser usado em um dos campos radio, caso haja mais de um, apenas o ultimo será considerado.
 
 A tag <label></label>, também conhecida como etiqueta, relaciona uma palavra e uma caixa de texto.
 <p>
