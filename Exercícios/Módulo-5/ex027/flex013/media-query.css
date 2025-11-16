@@ -1,0 +1,25 @@
+@charset 'UTF-8';
+
+@media screen and (min-width:768px) {
+    header {
+        display: flex;
+        
+        justify-content: space-between;
+    }
+
+    header > .container {
+        flex-flow: row nowrap;
+        justify-content: space-between;
+
+        flex: 0 1 75%;
+    }
+
+    header h1 {
+        text-align: left;
+    }
+
+    header a {
+        flex: 1 1 auto;
+        margin: 0 3px;
+    }
+}
